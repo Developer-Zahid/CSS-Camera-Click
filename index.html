@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camere Click - Pure CSS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <input class="color__toggler" type="radio" name="color" id="theme--light" checked>
+    <input class="color__toggler" type="radio" name="color" id="theme--dark">
+    <div class="color__palette">
+        <label class="color__palette__label" for="theme--light">Light</label>
+        <label class="color__palette__label" for="theme--dark">Dark</label>
+    </div>
+    <section class="container" tabindex="0">
+        <div class="camera">
+            <div class="camera__btn"></div>
+            <div class="camera__light"></div>
+            <div class="camera__lence"></div>
+            <div class="blink__wrapper">
+                <span class="blink__bar" style="--c:0"></span>
+                <span class="blink__bar" style="--c:1"></span>
+                <span class="blink__bar" style="--c:2"></span>
+                <span class="blink__bar" style="--c:3"></span>
+                <span class="blink__bar" style="--c:4"></span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
